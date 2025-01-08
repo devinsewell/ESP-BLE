@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/CMakeFiles/bootloader
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/CMakeFiles/bootloader.rule
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/CMakeFiles/bootloader-complete.rule
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

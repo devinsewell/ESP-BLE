@@ -1,0 +1,150 @@
+[1/14] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[2/14] Linking C static library esp-idf/mqtt/libmqtt.a
+[3/14] Linking C static library esp-idf/fatfs/libfatfs.a
+[4/14] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+/Users/devinsewell/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.2.1\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -DUNITY_INCLUDE_CONFIG_H -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I"/Users/devinsewell/esp/LuminaSet ESP-BLE/build/config" -I"/Users/devinsewell/esp/LuminaSet ESP-BLE/main" -I/Users/devinsewell/esp/esp-idf/components/newlib/platform_include -I/Users/devinsewell/esp/esp-idf/components/freertos/config/include -I/Users/devinsewell/esp/esp-idf/components/freertos/config/include/freertos -I/Users/devinsewell/esp/esp-idf/components/freertos/config/xtensa/include -I/Users/devinsewell/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/devinsewell/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/devinsewell/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/Users/devinsewell/esp/esp-idf/components/freertos/esp_additions/include -I/Users/devinsewell/esp/esp-idf/components/esp_hw_support/include -I/Users/devinsewell/esp/esp-idf/components/esp_hw_support/include/soc -I/Users/devinsewell/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/devinsewell/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/devinsewell/esp/esp-idf/components/heap/include -I/Users/devinsewell/esp/esp-idf/components/log/include -I/Users/devinsewell/esp/esp-idf/components/soc/include -I/Users/devinsewell/esp/esp-idf/components/soc/esp32 -I/Users/devinsewell/esp/esp-idf/components/soc/esp32/include -I/Users/devinsewell/esp/esp-idf/components/hal/platform_port/include -I/Users/devinsewell/esp/esp-idf/components/hal/esp32/include -I/Users/devinsewell/esp/esp-idf/components/hal/include -I/Users/devinsewell/esp/esp-idf/components/esp_rom/include -I/Users/devinsewell/esp/esp-idf/components/esp_rom/include/esp32 -I/Users/devinsewell/esp/esp-idf/components/esp_rom/esp32 -I/Users/devinsewell/esp/esp-idf/components/esp_common/include -I/Users/devinsewell/esp/esp-idf/components/esp_system/include -I/Users/devinsewell/esp/esp-idf/components/esp_system/port/soc -I/Users/devinsewell/esp/esp-idf/components/esp_system/port/include/private -I/Users/devinsewell/esp/esp-idf/components/xtensa/esp32/include -I/Users/devinsewell/esp/esp-idf/components/xtensa/include -I/Users/devinsewell/esp/esp-idf/components/xtensa/deprecated_include -I/Users/devinsewell/esp/esp-idf/components/lwip/include -I/Users/devinsewell/esp/esp-idf/components/lwip/include/apps -I/Users/devinsewell/esp/esp-idf/components/lwip/include/apps/sntp -I/Users/devinsewell/esp/esp-idf/components/lwip/lwip/src/include -I/Users/devinsewell/esp/esp-idf/components/lwip/port/include -I/Users/devinsewell/esp/esp-idf/components/lwip/port/freertos/include -I/Users/devinsewell/esp/esp-idf/components/lwip/port/esp32xx/include -I/Users/devinsewell/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/devinsewell/esp/esp-idf/components/lwip/port/esp32xx/include/sys -I/Users/devinsewell/esp/esp-idf/examples/bluetooth/nimble/common/nimble_peripheral_utils -I/Users/devinsewell/esp/esp-idf/components/esp_ringbuf/include -I/Users/devinsewell/esp/esp-idf/components/efuse/include -I/Users/devinsewell/esp/esp-idf/components/efuse/esp32/include -I/Users/devinsewell/esp/esp-idf/components/esp_mm/include -I/Users/devinsewell/esp/esp-idf/components/driver/include -I/Users/devinsewell/esp/esp-idf/components/driver/deprecated -I/Users/devinsewell/esp/esp-idf/components/driver/analog_comparator/include -I/Users/devinsewell/esp/esp-idf/components/driver/dac/include -I/Users/devinsewell/esp/esp-idf/components/driver/gpio/include -I/Users/devinsewell/esp/esp-idf/components/driver/gptimer/include -I/Users/devinsewell/esp/esp-idf/components/driver/i2c/include -I/Users/devinsewell/esp/esp-idf/components/driver/i2s/include -I/Users/devinsewell/esp/esp-idf/components/driver/ledc/include -I/Users/devinsewell/esp/esp-idf/components/driver/mcpwm/include -I/Users/devinsewell/esp/esp-idf/components/driver/parlio/include -I/Users/devinsewell/esp/esp-idf/components/driver/pcnt/include -I/Users/devinsewell/esp/esp-idf/components/driver/rmt/include -I/Users/devinsewell/esp/esp-idf/components/driver/sdio_slave/include -I/Users/devinsewell/esp/esp-idf/components/driver/sdmmc/include -I/Users/devinsewell/esp/esp-idf/components/driver/sigma_delta/include -I/Users/devinsewell/esp/esp-idf/components/driver/spi/include -I/Users/devinsewell/esp/esp-idf/components/driver/temperature_sensor/include -I/Users/devinsewell/esp/esp-idf/components/driver/touch_sensor/include -I/Users/devinsewell/esp/esp-idf/components/driver/twai/include -I/Users/devinsewell/esp/esp-idf/components/driver/uart/include -I/Users/devinsewell/esp/esp-idf/components/driver/usb_serial_jtag/include -I/Users/devinsewell/esp/esp-idf/components/driver/touch_sensor/esp32/include -I/Users/devinsewell/esp/esp-idf/components/esp_pm/include -I/Users/devinsewell/esp/esp-idf/components/mbedtls/port/include -I/Users/devinsewell/esp/esp-idf/components/mbedtls/mbedtls/include -I/Users/devinsewell/esp/esp-idf/components/mbedtls/mbedtls/library -I/Users/devinsewell/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/Users/devinsewell/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/everest/include -I/Users/devinsewell/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m -I/Users/devinsewell/esp/esp-idf/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -I/Users/devinsewell/esp/esp-idf/components/esp_bootloader_format/include -I/Users/devinsewell/esp/esp-idf/components/esp_app_format/include -I/Users/devinsewell/esp/esp-idf/components/bootloader_support/include -I/Users/devinsewell/esp/esp-idf/components/bootloader_support/bootloader_flash/include -I/Users/devinsewell/esp/esp-idf/components/esp_partition/include -I/Users/devinsewell/esp/esp-idf/components/app_update/include -I/Users/devinsewell/esp/esp-idf/components/spi_flash/include -I/Users/devinsewell/esp/esp-idf/components/pthread/include -I/Users/devinsewell/esp/esp-idf/components/esp_timer/include -I/Users/devinsewell/esp/esp-idf/components/app_trace/include -I/Users/devinsewell/esp/esp-idf/components/esp_event/include -I/Users/devinsewell/esp/esp-idf/components/nvs_flash/include -I/Users/devinsewell/esp/esp-idf/components/esp_phy/include -I/Users/devinsewell/esp/esp-idf/components/esp_phy/esp32/include -I/Users/devinsewell/esp/esp-idf/components/vfs/include -I/Users/devinsewell/esp/esp-idf/components/esp_netif/include -I/Users/devinsewell/esp/esp-idf/components/wpa_supplicant/include -I/Users/devinsewell/esp/esp-idf/components/wpa_supplicant/port/include -I/Users/devinsewell/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include -I/Users/devinsewell/esp/esp-idf/components/esp_coex/include -I/Users/devinsewell/esp/esp-idf/components/esp_wifi/include -I/Users/devinsewell/esp/esp-idf/components/esp_wifi/wifi_apps/include -I/Users/devinsewell/esp/esp-idf/components/bt/include/esp32/include -I/Users/devinsewell/esp/esp-idf/components/bt/common/osi/include -I/Users/devinsewell/esp/esp-idf/components/bt/common/api/include/api -I/Users/devinsewell/esp/esp-idf/components/bt/common/btc/profile/esp/blufi/include -I/Users/devinsewell/esp/esp-idf/components/bt/common/btc/profile/esp/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ans/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/bas/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/dis/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gap/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/gatt/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hr/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/htp/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ias/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/ipss/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/lls/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/prox/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/cts/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/tps/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/hid/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/services/sps/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/util/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/ram/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/host/store/config/include -I/Users/devinsewell/esp/esp-idf/components/bt/porting/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/porting/nimble/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/port/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/nimble/transport/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/nimble/porting/npl/freertos/include -I/Users/devinsewell/esp/esp-idf/components/bt/host/nimble/esp-hci/include -I/Users/devinsewell/esp/esp-idf/components/unity/include -I/Users/devinsewell/esp/esp-idf/components/unity/unity/src -I/Users/devinsewell/esp/esp-idf/components/cmock/CMock/src -I/Users/devinsewell/esp/esp-idf/components/console -I/Users/devinsewell/esp/esp-idf/components/http_parser -I/Users/devinsewell/esp/esp-idf/components/esp-tls -I/Users/devinsewell/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/Users/devinsewell/esp/esp-idf/components/esp_adc/include -I/Users/devinsewell/esp/esp-idf/components/esp_adc/interface -I/Users/devinsewell/esp/esp-idf/components/esp_adc/esp32/include -I/Users/devinsewell/esp/esp-idf/components/esp_adc/deprecated/include -I/Users/devinsewell/esp/esp-idf/components/esp_eth/include -I/Users/devinsewell/esp/esp-idf/components/esp_gdbstub/include -I/Users/devinsewell/esp/esp-idf/components/esp_hid/include -I/Users/devinsewell/esp/esp-idf/components/tcp_transport/include -I/Users/devinsewell/esp/esp-idf/components/esp_http_client/include -I/Users/devinsewell/esp/esp-idf/components/esp_http_server/include -I/Users/devinsewell/esp/esp-idf/components/esp_https_ota/include -I/Users/devinsewell/esp/esp-idf/components/esp_psram/include -I/Users/devinsewell/esp/esp-idf/components/esp_lcd/include -I/Users/devinsewell/esp/esp-idf/components/esp_lcd/interface -I/Users/devinsewell/esp/esp-idf/components/protobuf-c/protobuf-c -I/Users/devinsewell/esp/esp-idf/components/protocomm/include/common -I/Users/devinsewell/esp/esp-idf/components/protocomm/include/security -I/Users/devinsewell/esp/esp-idf/components/protocomm/include/transports -I/Users/devinsewell/esp/esp-idf/components/protocomm/include/crypto/srp6a -I/Users/devinsewell/esp/esp-idf/components/esp_local_ctrl/include -I/Users/devinsewell/esp/esp-idf/components/espcoredump/include -I/Users/devinsewell/esp/esp-idf/components/espcoredump/include/port/xtensa -I/Users/devinsewell/esp/esp-idf/components/wear_levelling/include -I/Users/devinsewell/esp/esp-idf/components/sdmmc/include -I/Users/devinsewell/esp/esp-idf/components/fatfs/diskio -I/Users/devinsewell/esp/esp-idf/components/fatfs/src -I/Users/devinsewell/esp/esp-idf/components/fatfs/vfs -I/Users/devinsewell/esp/esp-idf/components/idf_test/include -I/Users/devinsewell/esp/esp-idf/components/idf_test/include/esp32 -I/Users/devinsewell/esp/esp-idf/components/ieee802154/include -I/Users/devinsewell/esp/esp-idf/components/json/cJSON -I/Users/devinsewell/esp/esp-idf/components/mqtt/esp-mqtt/include -I/Users/devinsewell/esp/esp-idf/components/nvs_sec_provider/include -I/Users/devinsewell/esp/esp-idf/components/perfmon/include -I/Users/devinsewell/esp/esp-idf/components/spiffs/include -I/Users/devinsewell/esp/esp-idf/components/wifi_provisioning/include -I/Users/devinsewell/esp/esp-idf/examples/common_components/led_strip/include -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap "-fmacro-prefix-map=/Users/devinsewell/esp/LuminaSet ESP-BLE=." -fmacro-prefix-map=/Users/devinsewell/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c '/Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c'
+/Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c:50:24: warning: initialization discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   50 |         .descriptors = gatt_svr_chr_descr,
+      |                        ^~~~~~~~~~~~~~~~~~
+/Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c: In function 'gatt_svr_chr_access_cb':
+/Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c:110:13: error: implicit declaration of function 'set_led_duty' [-Werror=implicit-function-declaration]
+  110 |             set_led_duty(r, g, b, w);
+      |             ^~~~~~~~~~~~
+In file included from /Users/devinsewell/esp/esp-idf/components/nvs_flash/include/nvs.h:13,
+                 from /Users/devinsewell/esp/esp-idf/components/nvs_flash/include/nvs_flash.h:13,
+                 from /Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c:3:
+/Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c: In function 'app_main':
+/Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c:224:21: error: implicit declaration of function 'ledc_timer_config' [-Werror=implicit-function-declaration]
+  224 |     ESP_ERROR_CHECK(ledc_timer_config(&ledc_timer));
+      |                     ^~~~~~~~~~~~~~~~~
+/Users/devinsewell/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c:224:40: error: 'ledc_timer' undeclared (first use in this function); did you mean 'esp_timer'?
+  224 |     ESP_ERROR_CHECK(ledc_timer_config(&ledc_timer));
+      |                                        ^~~~~~~~~~
+/Users/devinsewell/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/Users/devinsewell/esp/LuminaSet ESP-BLE/main/main.c:224:40: note: each undeclared identifier is reported only once for each function it appears in
+  224 |     ESP_ERROR_CHECK(ledc_timer_config(&ledc_timer));
+      |                                        ^~~~~~~~~~
+/Users/devinsewell/esp/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+cc1: some warnings being treated as errors
+[5/14] Performing build step for 'bootloader'
+[1/106] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj
+[2/106] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
+[3/106] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+[4/106] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+[5/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+[6/106] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_noos.c.obj
+[7/106] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj
+[8/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cpu_region_protect.c.obj
+[9/106] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj
+[10/106] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[11/106] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
+[12/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+[13/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj
+[14/106] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj
+[15/106] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+[16/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj
+[17/106] Linking C static library esp-idf/log/liblog.a
+[18/106] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj
+[19/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj
+[20/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj
+[21/106] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+[22/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj
+[23/106] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[24/106] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj
+[25/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
+[26/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
+[27/106] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj
+[28/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
+[29/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
+[30/106] Linking C static library esp-idf/esp_rom/libesp_rom.a
+[31/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[32/106] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[33/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[34/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[35/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[36/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj
+[37/106] Linking C static library esp-idf/esp_common/libesp_common.a
+[38/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[39/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj
+[40/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[41/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj
+[42/106] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[43/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj
+[44/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_soc.c.obj
+[45/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_sha.c.obj
+[46/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj
+[47/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[48/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj
+[49/106] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[50/106] Building C object esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj
+[51/106] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
+[52/106] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
+[53/106] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
+[54/106] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+[55/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj
+[56/106] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj
+[57/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
+[58/106] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj
+[59/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[60/106] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[61/106] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj
+[62/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+[63/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+[64/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[65/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
+[66/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
+[67/106] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+[68/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj
+[69/106] Linking C static library esp-idf/esp_system/libesp_system.a
+[70/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj
+[71/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj
+[72/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj
+[73/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj
+[74/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj
+[75/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj
+[76/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj
+[77/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj
+[78/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj
+[79/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj
+[80/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj
+[81/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj
+[82/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj
+[83/106] Linking C static library esp-idf/efuse/libefuse.a
+[84/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj
+[85/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/twai_periph.c.obj
+[86/106] Generating project_elf_src_esp32.c
+[87/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj
+[88/106] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[89/106] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj
+[90/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj
+[91/106] Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj
+[92/106] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj
+[93/106] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj
+[94/106] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj
+[95/106] Linking C static library esp-idf/bootloader_support/libbootloader_support.a
+[96/106] Linking C static library esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+[97/106] Linking C static library esp-idf/spi_flash/libspi_flash.a
+[98/106] Linking C static library esp-idf/hal/libhal.a
+[99/106] Building C object esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj
+[100/106] Linking C static library esp-idf/micro-ecc/libmicro-ecc.a
+[101/106] Linking C static library esp-idf/soc/libsoc.a
+[102/106] Linking C static library esp-idf/xtensa/libxtensa.a
+[103/106] Linking C static library esp-idf/main/libmain.a
+[104/106] Linking C executable bootloader.elf
+[105/106] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader/bootloader.bin
+[106/106] cd "/Users/devinsewell/esp/LuminaSet ESP-BLE/build/bootloader/esp-idf/esptool_py" && /Users/devinsewell/.espressif/python_env/idf5.2_py3.13_env/bin/python /Users/devinsewell/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/devinsewell/esp/LuminaSet\ ESP-BLE/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+ninja: build stopped: subcommand failed.

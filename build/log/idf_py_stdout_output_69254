@@ -1,0 +1,52 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/Users/devinsewell/esp/LuminaSet ESP-BLE/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.39.3 (Apple Git-146)")
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/devinsewell/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/devinsewell/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/devinsewell/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+NOTICE: Using component placed at /Users/devinsewell/esp/esp-idf/examples/bluetooth/nimble/common/nimble_peripheral_utils for dependency "nimble_peripheral_utils", specified in /Users/devinsewell/esp/LuminaSet ESP-BLE/main/idf_component.yml
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] nimble_peripheral_utils (*) (/Users/devinsewell/esp/esp-idf/examples/bluetooth/nimble/common/nimble_peripheral_utils)
+NOTICE: [2/2] idf (5.2.1)
+-- Project sdkconfig file /Users/devinsewell/esp/LuminaSet ESP-BLE/sdkconfig
+Loading defaults file /Users/devinsewell/esp/LuminaSet ESP-BLE/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/devinsewell/.espressif/python_env/idf5.2_py3.13_env/bin/python (found version "3.13.1") found components: Interpreter
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "bleprph" version: 1
+-- Adding linker script /Users/devinsewell/esp/LuminaSet ESP-BLE/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/devinsewell/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/devinsewell/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/devinsewell/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/devinsewell/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/devinsewell/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/devinsewell/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/devinsewell/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/devinsewell/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json led_strip log lwip main mbedtls mqtt newlib nimble_peripheral_utils nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/devinsewell/esp/esp-idf/components/app_trace /Users/devinsewell/esp/esp-idf/components/app_update /Users/devinsewell/esp/esp-idf/components/bootloader /Users/devinsewell/esp/esp-idf/components/bootloader_support /Users/devinsewell/esp/esp-idf/components/bt /Users/devinsewell/esp/esp-idf/components/cmock /Users/devinsewell/esp/esp-idf/components/console /Users/devinsewell/esp/esp-idf/components/cxx /Users/devinsewell/esp/esp-idf/components/driver /Users/devinsewell/esp/esp-idf/components/efuse /Users/devinsewell/esp/esp-idf/components/esp-tls /Users/devinsewell/esp/esp-idf/components/esp_adc /Users/devinsewell/esp/esp-idf/components/esp_app_format /Users/devinsewell/esp/esp-idf/components/esp_bootloader_format /Users/devinsewell/esp/esp-idf/components/esp_coex /Users/devinsewell/esp/esp-idf/components/esp_common /Users/devinsewell/esp/esp-idf/components/esp_eth /Users/devinsewell/esp/esp-idf/components/esp_event /Users/devinsewell/esp/esp-idf/components/esp_gdbstub /Users/devinsewell/esp/esp-idf/components/esp_hid /Users/devinsewell/esp/esp-idf/components/esp_http_client /Users/devinsewell/esp/esp-idf/components/esp_http_server /Users/devinsewell/esp/esp-idf/components/esp_https_ota /Users/devinsewell/esp/esp-idf/components/esp_https_server /Users/devinsewell/esp/esp-idf/components/esp_hw_support /Users/devinsewell/esp/esp-idf/components/esp_lcd /Users/devinsewell/esp/esp-idf/components/esp_local_ctrl /Users/devinsewell/esp/esp-idf/components/esp_mm /Users/devinsewell/esp/esp-idf/components/esp_netif /Users/devinsewell/esp/esp-idf/components/esp_netif_stack /Users/devinsewell/esp/esp-idf/components/esp_partition /Users/devinsewell/esp/esp-idf/components/esp_phy /Users/devinsewell/esp/esp-idf/components/esp_pm /Users/devinsewell/esp/esp-idf/components/esp_psram /Users/devinsewell/esp/esp-idf/components/esp_ringbuf /Users/devinsewell/esp/esp-idf/components/esp_rom /Users/devinsewell/esp/esp-idf/components/esp_system /Users/devinsewell/esp/esp-idf/components/esp_timer /Users/devinsewell/esp/esp-idf/components/esp_wifi /Users/devinsewell/esp/esp-idf/components/espcoredump /Users/devinsewell/esp/esp-idf/components/esptool_py /Users/devinsewell/esp/esp-idf/components/fatfs /Users/devinsewell/esp/esp-idf/components/freertos /Users/devinsewell/esp/esp-idf/components/hal /Users/devinsewell/esp/esp-idf/components/heap /Users/devinsewell/esp/esp-idf/components/http_parser /Users/devinsewell/esp/esp-idf/components/idf_test /Users/devinsewell/esp/esp-idf/components/ieee802154 /Users/devinsewell/esp/esp-idf/components/json /Users/devinsewell/esp/esp-idf/examples/common_components/led_strip /Users/devinsewell/esp/esp-idf/components/log /Users/devinsewell/esp/esp-idf/components/lwip /Users/devinsewell/esp/LuminaSet ESP-BLE/main /Users/devinsewell/esp/esp-idf/components/mbedtls /Users/devinsewell/esp/esp-idf/components/mqtt /Users/devinsewell/esp/esp-idf/components/newlib /Users/devinsewell/esp/esp-idf/examples/bluetooth/nimble/common/nimble_peripheral_utils /Users/devinsewell/esp/esp-idf/components/nvs_flash /Users/devinsewell/esp/esp-idf/components/nvs_sec_provider /Users/devinsewell/esp/esp-idf/components/openthread /Users/devinsewell/esp/esp-idf/components/partition_table /Users/devinsewell/esp/esp-idf/components/perfmon /Users/devinsewell/esp/esp-idf/components/protobuf-c /Users/devinsewell/esp/esp-idf/components/protocomm /Users/devinsewell/esp/esp-idf/components/pthread /Users/devinsewell/esp/esp-idf/components/sdmmc /Users/devinsewell/esp/esp-idf/components/soc /Users/devinsewell/esp/esp-idf/components/spi_flash /Users/devinsewell/esp/esp-idf/components/spiffs /Users/devinsewell/esp/esp-idf/components/tcp_transport /Users/devinsewell/esp/esp-idf/components/ulp /Users/devinsewell/esp/esp-idf/components/unity /Users/devinsewell/esp/esp-idf/components/usb /Users/devinsewell/esp/esp-idf/components/vfs /Users/devinsewell/esp/esp-idf/components/wear_levelling /Users/devinsewell/esp/esp-idf/components/wifi_provisioning /Users/devinsewell/esp/esp-idf/components/wpa_supplicant /Users/devinsewell/esp/esp-idf/components/xtensa
+-- Configuring done (1.9s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/devinsewell/esp/LuminaSet ESP-BLE/build
